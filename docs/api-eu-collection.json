@@ -1,0 +1,77 @@
+{
+  "info": {
+    "_postman_id": "d9c78df7-5e0a-4b9f-8c77-e2c424be9d87",
+    "name": "api-eu",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53190247",
+    "_collection_link": "https://go.postman.co/collection/53190247-d9c78df7-5e0a-4b9f-8c77-e2c424be9d87?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "api/me",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/data",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "data"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "api/data",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/data",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "data"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "api/random",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/random",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "random"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
